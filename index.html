@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form name="quiz" id="quiz">
+        <div class="container">
+            <h1>Quiz App</h1>
+            <div class="questions">
+            <label class="lbl" name="q1"> 1. What are the three primary technologies in the HTML5 family?</label><br><br>
+           <p><input type="radio"  name="q1"  value="A"> JavaScript, CSS, HTML <br></p> 
+           <p><input type="radio"   name="q1"  value="B"> PyTouch,TensorFlow,Python <br> </p> 
+            <p><input type="radio"  name="q1"  value="C"> Apple ARKit,Google ARCore,Magic Leap <br></p>
+           <br>
+           
+        </div>
+
+        <div class="questions">
+            <label class="lbl" name="q2"> 2. List three important points while planning your project.</label><br><br>
+              
+        <p><input type="radio" name="q2"  value="A"> Write Code, Validate, Deploy<br></p>
+        <p> <input type="radio" name="q2"  value="B"> Design UI, Update Manifest, and Write Code.<br> </p>
+       <p><input type="radio" name="q2"  value="C"> Package, Validate, Deploy <br></p> 
+    </div>
+
+    <div class="questions">
+        <label class="lbl" name="q3"> 3. What is a manifest file?</label><br><br>
+        
+       <p><input type="radio" name="q3"  value="A"> defines a namespace and a namespace is like a work area for related objects.<br></p> 
+        <p><input type="radio" name="q3"  value="B"> controls the overall execution of the browser.<br> </p>
+       <p><input type="radio" name="q3"  value="C"> It describes properties of the app and what the app needs to run<br><br>
+       </div></p> 
+
+       <div class="questions">
+        <label class="lbl" name="q4"> 4. Which environment gives developers access to a user’s device?</label><br><br>
+        
+       <p><input type="radio" name="q4"  value="A"> Session State <br></p> 
+        <p><input type="radio" name="q4"  value="B"> Application programming interface <br> </p>
+       <p><input type="radio" name="q4"  value="C"> The runtime environment <br><br>
+       </div></p> 
+
+       <div class="questions">
+        <label class="lbl" name="q5"> 5. What are Cookies?</label><br><br>
+        
+       <p><input type="radio" name="q5"  value="A"> The purpose is for ease in distribution and deployment. <br></p> 
+        <p><input type="radio" name="q5"  value="B"> they are small files that contain information about the user and the Web Site visited. <br> </p>
+       <p><input type="radio" name="q5"  value="C"> data gets sent between the browsers and server upon every request. <br><br>
+       </div></p> 
+
+       <input type="button" class="btn" value="Submit" onclick="check()">
+       <p id="result"> </p>
+        
+          
+</body>
+</html>

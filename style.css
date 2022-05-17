@@ -1,0 +1,53 @@
+
+
+h1{
+    text-align:center;
+    font-size: 2rem ;
+    
+    
+
+}
+
+.container{
+
+    width: 50%;
+    background-color:lightpink;
+    margin:auto;
+    padding:15px;
+}
+
+.questions{
+border:20px lightgrey;
+padding:15px;
+margin-bottom:10px;
+
+}
+
+.btn{
+
+    color:lightgrey;
+    background-color: rgb(0, 0, 0);
+    height:30px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.lbl{
+    position: absolute;
+    background-color: black;
+    color:pink;
+    font-size:20px;
+}
+
+p{
+
+    font-size:1rem;
+    text-indent:15px;
+    padding:10px;
+}
+
+#results{
+    font-size:1.25rem;
+    text-align:right;
+    margin-top:-50px;
+}
